@@ -49,4 +49,4 @@ Se necessário, altere a url da API no arquivo `.env.local`.
 
   - Para habilitar o modo de edição, no modal de visualização, basta clicar em cima da descrição.
 
-- Mesmo podendo fazer o teste em 72 horas, por questões pessoais só puder utilizar 6 horas para fazer o projeto, portanto não fiz algumas configurações adicionais como utilização do linter configurado no projeto (usei apenas o da IDE), adição do Dockerfile para criação de imagem e container docker e criação dos testes unitários.
+- Mesmo podendo fazer o teste em 72 horas, por questões pessoais só puder utilizar 6 horas para fazer o projeto, portanto não fiz algumas configurações adicionais como adição do Dockerfile para criação de imagem e container docker, criação dos testes unitários e separação dos componentes utilizando o Atomic Design.
