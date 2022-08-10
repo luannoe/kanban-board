@@ -49,4 +49,4 @@ Se necessário, altere a url da API no arquivo `.env.local`.
 
   - Para habilitar o modo de edição, no modal de visualização, basta clicar em cima da descrição.
 
-- Mesmo podendo fazer o teste em 72 horas, por questões pessoais só puder utilizar 6 horas para fazer o projeto, portanto não fiz algumas configurações adicionais como adição do Dockerfile para criação de imagem e container docker, criação dos testes unitários e separação dos componentes utilizando o Atomic Design.
+- Mesmo podendo fazer o teste em 72 horas, por questões pessoais só puder utilizar 6 horas para fazer o projeto, portanto não fiz algumas configurações adicionais como adição do Dockerfile para criação de imagem e container docker, criação dos testes unitários e separação dos componentes utilizando o Atomic Design. Também por questão de tempo eu não fiz nenhuma tratativa de estado de `loading`, já que os testes são feitos com a API local e as respostas são praticamente instantâneas - porém eu tratei todas mensagens de sucesso e erro -.
